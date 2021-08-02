@@ -1,0 +1,128 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 90%;
+}
+body {
+	background-color: #f9f9f9;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-style: normal;
+}
+
+article {
+	transition:all 1.5s;
+	position:relative;
+}
+
+section {
+	position:relative;
+}
+
+p, h1, h2, h3, h4, select, ul { 
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+a {
+	color: currentColor;
+	text-decoration: none;
+	border-bottom: 1px dotted currentColor;
+}
+a:hover {
+	opacity: .7;
+}
+h1 { font-size: 4.6rem;}
+h1, h2 { line-height: 1;}
+h3, select { line-height: 1.25; }
+h4, p { line-height: 1.5; }
+h1, h2, h3, select { font-weight: 200; }
+/* h2, h3 { font-weight: 200; } */
+h2 { 
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+h3 { font-size: 2rem; }
+.smaller { font-size: 1.5rem; }
+select { font-size: 1.35rem; }
+h4 {
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+p, ul { 
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+.key, .value, .label {
+	color: #FFF;
+	fill: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.key { font-weight: 300; }
+.value, .label { font-weight: 600; }
+.label { font-weight: 500; }
+.label { font-size: .8rem; }
+.note { font-size: .9rem; }
+
+.col, .wide, .col-text, .narrow {
+	margin: 0 auto;
+	width: 100%;
+}
+.wide { width:48rem; }
+.full {
+	width:100%;
+	margin: 0;
+	overflow: hidden;
+}
+.cover {
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+
+.half {
+	width:24rem;
+	height:24rem;
+}
+
+.third {
+	width:18rem;
+	height:15rem;
+}
+
+.quarter {
+	width:12rem;
+	height:12rem;
+}
+
+@media screen and (min-width: 48rem) {
+	html, body { font-size: 100%; }
+	p, h1, h2, h3, h4, select { 
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	h1 { font-size: 7.5rem; }
+	h2 { font-size: 5.2rem; }
+	h3 { font-size: 2.4rem; }
+	select { font-size: 1.85rem; }
+	.smaller { font-size: 2rem; }
+	.narrow { 
+		width:38rem;
+		padding-right:26rem;
+	}
+
+	.col { 
+		width:48rem;
+		padding-right:16rem;
+	}
+	.col-text { 
+		width:40rem;
+		padding-right:24rem;
+	}
+}
