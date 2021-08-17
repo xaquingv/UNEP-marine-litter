@@ -20,13 +20,20 @@
 <nav class={placement}>
     <Logo 
     alt='UNEP logo'
-    color='#1E1E1E'
-    change='#FFF'
     {placement}/>
     <ul>
       {#each lang as l}
+      {#if desktop}
       <li><a href="?lang={l.id}">{l.name}</a></li>
+      {:else}
+      <li><a href="?lang={l.id}">{l.id}</a></li>
+      {/if}
       {/each}
+      {#if desktop}
+      <li class="download"><a>Download report</a></li>
+      {:else}
+      <li class="download"><a>Download</a></li>
+      {/if}
     </ul>
 </nav>
 
@@ -47,6 +54,7 @@
   ul { 
     float: right;
     padding-right: 1rem;
+    margin-top: .35rem!important;
   }
   li { 
     list-style-type: none;
@@ -56,4 +64,14 @@
     font-size: 1rem;
   }
   li a { border: none; }
+
+  .below .download { border: 2px solid #FFF; }
+  .download {
+    border: 2px solid #000;
+    border-radius: 100rem;
+    height: 1.6rem;
+    margin-left:1rem;
+    padding:.5rem .7rem 0 .7rem;
+    cursor: pointer;
+  }
 </style>

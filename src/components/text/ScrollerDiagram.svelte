@@ -5,6 +5,7 @@
     export let type;
     export let text;
     export let src;
+    export let bg;
 
     let progress, duration;
 
@@ -33,7 +34,7 @@
       <div slot='foreground'>
           {#each text as p}
           <section class='step'>
-            <h3 class='narrow'><span class='bg-text'>{@html p.p}</span></h3>
+            <h3 class='narrow'><span class='bg-text {bg}'>{@html p.p}</span></h3>
           </section>
         {/each}
       </div>
@@ -47,7 +48,7 @@
 	}
   .step { 
     height: 80vh;
-    padding-top: 20vh;
+    padding-top: 40vh;
     color:white;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -61,6 +62,10 @@
   .bg-text { 
     background-color: rgba(0,0,0,.15);
     padding: 0.08rem 0;
+  }
+  .white { 
+    background-color: #f9f9f9;
+    color:#000;
   }
   @media screen and (min-width: 48rem) {
     .step { 

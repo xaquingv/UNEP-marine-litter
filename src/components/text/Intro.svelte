@@ -20,7 +20,7 @@
 <svelte:window bind:innerWidth={window}/>
 
 <section>
-	<IntersectionObserver {element} bind:intersecting threshold=1 rootMargin='100%'>
+	<IntersectionObserver {element} bind:intersecting threshold=.5 >
 		<div class="pill-location" bind:this={element}></div>
 	</IntersectionObserver>
 	{#if intersecting}
