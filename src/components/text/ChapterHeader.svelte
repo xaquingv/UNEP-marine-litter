@@ -2,18 +2,23 @@
   import Scroller from '@sveltejs/svelte-scroller'
   import Video from '../multimedia/Video.svelte'
   import IntersectionObserver from "svelte-intersection-observer";
+  import { fade } from 'svelte/transition'
 
   export let type;
   export let text;
   export let head;
   export let video;
 
-  let index, count = (text) ? text.length : 1;
+  let index, count = 1, y, height;
   let element, intersecting;
 
-</script>
+  $:showVideo = () => {
+    return y > (height*.6);
+  }
 
-<section class='full {type}'>
+</script>
+<svelte:window bind:scrollY={y} bind:innerHeight={height} />
+<section class='full {type} {type === 'intro' ? 'brown':''}'>
   <Scroller
       top={0}
       bottom={1}
@@ -23,7 +28,7 @@
 
     <div slot='background'>
         <div class="gradient"></div>
-        <div class='video-wrapper' style="opacity:{intersecting ? 1 : 0}">
+        <div class='video-wrapper' style="opacity:{(intersecting && showVideo()) ? 1 : 0}">
         <Video 
           src='video/{video}.mp4'
           layout='cover' />
@@ -42,7 +47,7 @@
       </IntersectionObserver>
         {#if text}
         {#each text as p}
-        <section class='step'>
+        <section class='step-below'>
           {#if type === 'intro'}
           <h3 class='narrow shadow'>{@html p.p}</h3>
           {:else}
@@ -64,8 +69,16 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.brown { background-color: #b1997e; }
+.step-below { 
+    height: 40vh;
+    padding-top: 20vh;
+    color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 .shadow {
-  text-shadow: 0 0 2rem #00000099;
+  text-shadow: 0 0 1rem #00000033, 0 0 .6rem #00000066, 0 0 .3rem #00000099;
 }
 .video-wrapper{
   width: 100%;
