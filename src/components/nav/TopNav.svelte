@@ -2,7 +2,7 @@
   import Logo from '../nav/Logo.svelte'
   let y, width, height, submenu;
 
-  $: placement = (y > height * 3.6)? 'below': '';
+  $: placement = (y > height * 2)? 'below': '';
   $: desktop = (width > 640 && height < width);
   const lang = [
     {id: 'EN', name: 'English'},
@@ -45,11 +45,11 @@
     top:0;
     z-index: 100;
     height: 3rem;
+    
   }
   .below {
     background-color: #1E1E1E;
     transition: background-color .5s;
-    color:#FFF;
   }
   ul { 
     float: right;
@@ -62,12 +62,12 @@
     margin-left: 0 0 0 1rem;
     padding: 0 0 0 1rem;
     font-size: 1rem;
+    color:#FFF;
   }
   li a { border: none; }
 
-  .below .download { border: 2px solid #FFF; }
   .download {
-    border: 2px solid #000;
+    border: 2px solid #FFF;
     border-radius: 100rem;
     height: 1.6rem;
     margin-left:1rem;

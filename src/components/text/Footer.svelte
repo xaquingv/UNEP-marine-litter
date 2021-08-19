@@ -3,26 +3,19 @@
     export let head;
     </script>
     <div class="full blue">
-    <section class='col-text'>
+    <section class='col-text well'>
       {#if head}
       <h3>{@html head}</h3>
       {/if}
       {#if text}
       {#each text as p,i}
-          <p class='{i > 0 ? '' : 'has-dropcap'}'>{@html p.p}</p>
+          <p class='third'>{@html p.p}</p>
       {/each}
       {/if}
       <img class='small-image' src='img/small-illos-04.png' alt='Abstract watercolor as an illustration for the the text below'/>
     </section>
     </div>
     <style>
-      .has-dropcap:first-letter {
-        float: left;
-        font-weight: 700;
-        font-size: 6.4rem;
-        line-height: 0.65;
-        margin: 0.1em 0.1em 0.1em 0;
-      }
       .blue {
         color: #FFF;
         background-color: #00abf1;
@@ -31,7 +24,31 @@
       }
       .small-image {
         height:15rem;
-        margin-bottom: -1rem;
         transition: all .3s;
+        position:absolute;
+        bottom:0;
+      }
+      .third {
+        font-size: 1rem;
+        display: block;
+        height: auto!important;
+      }
+      .well { 
+        width: 100%;
+        padding-bottom:6rem;
+      }
+      @media screen and (min-width: 48rem) {
+        .well { 
+          width: 64rem;
+          padding-right:0;
+          padding-bottom:6rem;
+        }
+        .third {
+          width:30%;
+          padding-right:2rem;
+          display: inline-block;
+          vertical-align: top;
+          font-size: 1rem;
+        }
       }
     </style>

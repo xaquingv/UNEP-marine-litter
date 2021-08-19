@@ -27,7 +27,7 @@
       >
 
     <div slot='background'>
-        <div class="gradient"></div>
+        <div class="{type === 'intro' ? '':'gradient'}"></div>
         <div class='video-wrapper' style="opacity:{(intersecting && showVideo()) ? 1 : 0}">
         <Video 
           src='video/{video}.mp4'
@@ -69,7 +69,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.brown { background-color: #b1997e; }
+.brown { background-color: #3f86e1; }
 .step-below { 
     height: 40vh;
     padding-top: 20vh;
