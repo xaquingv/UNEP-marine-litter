@@ -24,14 +24,14 @@
         margin: 0.1em 0.1em 0.1em 0;
       }
       .blue {
-          color: #FFF;
-          background-color: #00abf1;
-          margin: 4rem 0;
-          padding-top: 4rem;
+        color: #FFF;
+        background-color: #00abf1;
+        margin: 4rem 0;
+        padding-top: 4rem;
       }
       .small-image {
-          height:15rem;
-          margin-bottom: -1rem;
-          transition: all .3s;
+        height:15rem;
+        margin-bottom: -1rem;
+        transition: all .3s;
       }
     </style>

@@ -13,7 +13,7 @@
     }
 </script>
 <section class='full-width' style={margin()}>
-<img class='small-image' src='./img/{illo}.png' alt='Abstract watercolor illustration of a group of corals'/>
+<img class='small-image' src='./img/{illo}.png' alt='Abstract watercolor illustration'/>
 </section>
 <style>
     .small-image {
