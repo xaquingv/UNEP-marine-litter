@@ -36,7 +36,7 @@
     </div>
 
     <div slot='foreground'>
-      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=.5 rootMargin='{(count) * 100}%'>
+      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=0 rootMargin='{(count) * 100}%'>
         <section class='step' bind:this={element}>
               {#if type === 'intro'}
               <h1 class='narrow'>{@html head}</h1>
@@ -78,7 +78,7 @@
     margin-right: 1rem;
   }
 .shadow {
-  text-shadow: 0 0 1rem #00000033, 0 0 .6rem #00000066, 0 0 .3rem #00000099;
+  text-shadow: 0 0 2rem #00000066, 0 0 1rem #00000099, 0 0 .5rem #000000CC;
 }
 .video-wrapper{
   width: 100%;

@@ -1,13 +1,20 @@
 <script>
 export let head;
 export let cover;
+export let resources;
+export let other;
 </script>
 
 <section class='col-text border'>
-  {#if head}
   <img src="./img/{cover}.png" alt="Cover of the report"/>
   <h4>{@html head}</h4>
-  {/if}
+  <section>
+  <h4>{@html other}</h4>
+  <ul>
+  {#each resources as r}
+  <li class='label'><a href='./graphics/{r.link}' target='_blank'>{r.label}</a></li>
+  {/each}
+  </section>
 </section>
 
 <style>
@@ -20,8 +27,19 @@ export let cover;
       background-color:#DCDCDC;
   }
   .border {
-      border-top:1px solid #000;
+      border-top:1px solid #dcdcdc;
       margin-top:6rem;
-      height:17rem;
   }
+  .label {
+    font-size: 1rem;
+    color:#000;
+    margin-top:0;
+  }
+  ul { 
+    margin-top: .8rem;
+    margin-left: 0;
+    padding-left:0;
+    list-style-position: inside;
+  }
+  ul li { margin: .8rem; }
 </style>

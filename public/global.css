@@ -103,6 +103,32 @@ p, ul {
 @media screen and (min-width: 48rem) {
 	html, body { font-size: 100%; }
 	p, h1, h2, h3, h4, select { 
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	h1 { font-size: 6rem; }
+	h2 { font-size: 4.5rem; }
+	h3 { font-size: 2rem; }
+	select { font-size: 1.5rem; }
+	.smaller { font-size: 1.8rem; }
+	.narrow { 
+		width:38rem;
+		padding-right:9rem;
+	}
+
+	.col { 
+		width:48rem;
+		padding-right:0;
+	}
+	.col-text { 
+		width:40rem;
+		padding-right:8rem;
+	}
+}
+
+@media screen and (min-width: 66rem) {
+	p, h1, h2, h3, h4, select { 
 		margin-left: 0;
 		margin-right: 0;
 	}

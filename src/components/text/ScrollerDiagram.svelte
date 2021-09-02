@@ -48,7 +48,7 @@
 	}
   .step { 
     height: 80vh;
-    padding-top: 40vh;
+    padding-top: 60vh;
     color:white;
     margin-left: 1rem;
     margin-right: 1rem;
