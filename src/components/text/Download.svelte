@@ -3,17 +3,22 @@ export let head;
 export let cover;
 export let resources;
 export let other;
+export let downloadlink;
+export let further;
+export let furtherlink;
 </script>
 
 <section class='col-text border'>
-  <img src="./img/{cover}.png" alt="Cover of the report"/>
-  <h4>{@html head}</h4>
+  <a class='img_link' href={downloadlink}><img src="./img/{cover}.png" alt="Cover of the report"/></a>
+  <h4><a href={downloadlink}>{@html head}</a></h4>
   <section>
   <h4>{@html other}</h4>
   <ul>
   {#each resources as r}
   <li class='label'><a href='./graphics/{r.link}' target='_blank'>{r.label}</a></li>
   {/each}
+  </ul>
+  <h4><a href={furtherlink}>{@html further}</a></h4>
   </section>
 </section>
 
@@ -25,6 +30,9 @@ export let other;
       margin-top:2rem;
       float:right;
       background-color:#DCDCDC;
+  }
+  .img_link {
+    border:none;
   }
   .border {
       border-top:1px solid #dcdcdc;

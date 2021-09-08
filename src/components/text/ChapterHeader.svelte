@@ -36,7 +36,7 @@
     </div>
 
     <div slot='foreground'>
-      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=0 rootMargin='{(count) * 100}%'>
+      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=0 rootMargin='{(count) * 200}%'>
         <section class='step' bind:this={element}>
               {#if type === 'intro'}
               <h1 class='narrow'>{@html head}</h1>
