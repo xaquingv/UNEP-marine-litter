@@ -1,0 +1,16 @@
+# on:
+#   push:
+#     branches:
+#       - main
+on: push
+
+jobs:
+  deployment:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Stage
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+          method: 'POST'
