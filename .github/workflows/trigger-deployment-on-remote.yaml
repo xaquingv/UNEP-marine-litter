@@ -1,8 +1,7 @@
-# on:
-#   push:
-#     branches:
-#       - main
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deployment:
@@ -12,5 +11,6 @@ jobs:
       - name: Deploy Stage
         uses: fjogeleit/http-request-action@master
         with:
-          url: 'https://ansible.io/api/v2/job_templates/84/launch/'
+          url: ${{ secrets.BUILD_ENDPOINT }}
           method: 'POST'
+          data: ${{ secrets.BUILD_DATA }}
