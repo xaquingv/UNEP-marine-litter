@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@reuters-graphics/d3-locale": "^0.1.0",
+    "@rollup/plugin-html": "^0.2.4",
     "@sveltejs/svelte-scroller": "^2.0.6",
     "autoprefixer": "^9.8.6",
     "csv-parse": "^4.15.3",

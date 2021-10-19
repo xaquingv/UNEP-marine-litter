@@ -3,9 +3,9 @@
     export let head;
 
     const logos = [
-      'gpml.png',
+      'un-logo.svg',
       'clean.svg',
-      'un-logo.svg'
+      'gpml.png',
     ]
     </script>
     <div class="full blue">
@@ -16,7 +16,9 @@
       {#if text}
       {#each text as p,i}
         <div class='third'>
+          {#if i < 3}
           <img class='logo' src='./img/{logos[i]}' alt="Global Partnership Marine Litter, Cleans Seas and UNEP 50 logos"/>
+          {/if}
           <p>{@html p.p}</p>
         </div>
       {/each}
@@ -42,6 +44,7 @@
         display: block;
         height: auto!important;
         position:relative;
+        width:100%;
       }
       .well { 
         width: 100%;
@@ -51,9 +54,14 @@
         height: 5rem;
         width:auto;
         display: block;
+        padding-left:1rem;
       }
       p {
         font-size: 1rem; 
+      }
+      :global(.subhead) {
+        font-size: 1.2rem;
+        font-weight: 500;
       }
       @media screen and (min-width: 64rem) {
         .well { 
@@ -69,6 +77,9 @@
           margin-bottom:3rem;
         }
 
-        .logo { left:0; }
+        .logo { 
+          left:0;
+          padding-left:0;
+        }
       }
     </style>

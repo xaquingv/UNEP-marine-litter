@@ -3,14 +3,16 @@
 	import IntersectionObserver from "svelte-intersection-observer";
 	import {fly, fade} from 'svelte/transition';
 
-	export let tag
+	export let tag;
+	export let kicker;
 	export let stories;
+	export let lang;
 	
 	let element, intersecting, width, window, opened;
 
 	const more = 'Read more'
 
-	$:mobile = window < 778;
+	$:mobile = window < 1008;
 
 	const open = () => {
 		opened = !opened;
@@ -20,25 +22,19 @@
 <svelte:window bind:innerWidth={window}/>
 
 <section>
-	<IntersectionObserver {element} bind:intersecting threshold=.5 >
+	<IntersectionObserver {element} bind:intersecting threshold=1 rootMargin='100%'>
 		<div class="pill-location" bind:this={element}></div>
 	</IntersectionObserver>
 	{#if intersecting}
 		{#if mobile}
 		<div class="pill-wrapper" bind:clientWidth={width} transition:fly="{{ x: width, duration: 600 }}">
 			<div class="pill {opened ? 'pill--opened' : 'pill--closed'}" on:click={open}>
-				<p>Tk</p>
+				<p>{@html kicker}</p>
 				{#if opened}
 				<div class='pill-content-wrapper' transition:fade={{duration:600}}>
-					<Video
-						src='video/header.mp4'
-						poster=''
-						layout='third'
-					/>
-					<p>{@html tag}</p>
 					<ul>
 						{#each stories as story}
-							<li><a href="{story.link}">{story.item}</a></li>
+							<li><a href="{story.link}?lang={lang.toUpperCase()}">{story.item}</a></li>
 						{/each}
 					</ul>
 				</div>
@@ -51,15 +47,15 @@
 			<div class="pill">
 				<div class='pill-content-wrapper'>
 					<Video
-						src='video/header.mp4'
+						src='video/header'
 						poster=''
 						layout='third'
 					/>
-					<p class="kicker">{@html tag}</p>
-					<p class="header">More stories from the series</p>
+					<p class="tag">{@html tag}</p>
+					<p class="header">{@html kicker}</p>
 					<ul>
 						{#each stories as story}
-							<li><a href="{story.link}">{story.item}</a></li>
+							<li><a href="{story.link}?lang={lang.toUpperCase()}">{story.item}</a></li>
 						{/each}
 					</ul>
 				</div>
@@ -70,7 +66,7 @@
 </section>
 
 <style>
-	.kicker {
+	.tag {
 		font-weight: 600!important;
 		font-size: 1rem;
 		text-align: center;

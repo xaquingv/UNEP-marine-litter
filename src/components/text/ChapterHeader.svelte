@@ -2,7 +2,6 @@
   import Scroller from '@sveltejs/svelte-scroller'
   import Video from '../multimedia/Video.svelte'
   import IntersectionObserver from "svelte-intersection-observer";
-  import { fade } from 'svelte/transition'
 
   export let type;
   export let text;
@@ -30,13 +29,13 @@
         <div class="{type === 'intro' ? '':'gradient'}"></div>
         <div class='video-wrapper' style="opacity:{(intersecting && showVideo()) ? 1 : 0}">
         <Video 
-          src='video/{video}.mp4'
+          src='video/{video}'
           layout='cover' />
         </div>
     </div>
 
     <div slot='foreground'>
-      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=0 rootMargin='{(count) * 200}%'>
+      <IntersectionObserver {element} on:observe="{(e) => {intersecting = e.detail.isIntersecting;}}" threshold=0 rootMargin='{(count) * 300}%'>
         <section class='step' bind:this={element}>
               {#if type === 'intro'}
               <h1 class='narrow'>{@html head}</h1>
@@ -71,7 +70,7 @@
 }
 .brown { background-color: #3f86e1; }
 .step-below { 
-    height: 40vh;
+    height: 60vh;
     padding-top: 20vh;
     color:white;
     margin-left: 1rem;
@@ -88,7 +87,7 @@
 .header { padding: 4rem 0; }
 .gradient {
   position:absolute;
-  top:0;
+  top:-1px;
   width:100%;
   height:20rem;
   background: #f9f9f9;

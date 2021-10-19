@@ -13,25 +13,24 @@
 	import BigText from './components/text/BigText.svelte';
 	import SmallImage from './components/img/SmallImage.svelte';
 	import Download from './components/text/Download.svelte';
-	import VideoScrolly from './components/multimedia/VideoScrolly.svelte'
 
-  	export let content, intro, meta;
+  	export let content, intro, meta, menu, lang;
 
-    const loc = new locale('en');
+    const loc = new locale(lang);
     const format = {
       x: loc.formatTime('%Y'),
       y: loc.format('.2%'),
     }
 
 </script>
-<TopNav />
+<TopNav {...menu[0]} {lang} />
 <main>
-  <article>
+  <article class='{lang === 'ar' ? 'rtl' : ''}' dir='{lang === 'ar' ? 'rtl' : ''}'>
     {#each content as block}
 		{#if block.type === 'header' || block.type === 'intro'}
 		<ChapterHeader {...block} />
 		{:else if block.type === 'series'}
-		<Intro {...block}/>
+		<Intro {...block} {lang}/>
 		{:else if block.type === 'pill'}
 		<Pill {...block}/>
 		{:else if block.type === 'illo'}
@@ -39,9 +38,9 @@
 		{:else if block.type === 'gallery'}
 		<ScrollerGallery {...block}/>
 		{:else if block.type === 'scrolly-data'}
-		<ScrollerBigText {...block} src='video/{block.video}.mp4'/>
+		<ScrollerBigText {...block} src='video/{block.video}'/>
 		{:else if block.type === 'scrolly-video'}
-    	<ScrollerDiagram {...block} src='video/{block.video}.mp4' bg={block.video === 'litter' ? 'white' : ''} />
+    	<ScrollerDiagram {...block} src='video/{block.video}' bg={block.video === 'litter' ? 'white' : ''} />
 		{:else if block.type === 'big-text'}
 		<BigText {...block} />
 		{:else if block.type === 'small-illo'}
@@ -58,20 +57,6 @@
 
   </article>
 
-<!-- 	
-
-	<Map 
-		data={cases.data}
-		map={world}
-		geo='countries'
-		scale={palette()}
-		projection={projection}
-    	join={{data:'geoid', map:'alpha3'}}
-    	value=''
-    	legend={{title: '', format: ''}}
-		layout='wide'
-	/> -->
-
 </main>
 
 <style>
@@ -81,18 +66,12 @@
 		margin: 0 auto;
 	}
 
-	.blue {
-		background-color: #1434b1;
-		color: #FFF;
-	}
-
-	.bright {
-		background-color: #0534f3;
-		color: #FFF;
+	.rtl{
+		text-align: right !important;
 	}
 
 	:global(.graphic) {
-		height:50vh;
+		height:40vh;
 		margin-bottom:3rem;
 	}
 </style>
