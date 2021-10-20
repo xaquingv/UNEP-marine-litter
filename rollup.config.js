@@ -79,14 +79,14 @@ export default {
 				  <meta property="og:url" content="https://www.unep.org/interactive/pollution-to-solution/">
 				  <meta property="og:title" content="Visual Feature | Pollution to Solution: Accessing marine litter and plastic pollution">
 				  <meta property="og:description" content="Learn the effects of marine litter and plastic pollution and the solutions that we can implement to reduce the amount of plastic entering the ocean.">
-				  <meta property="og:image" content="https://www.unep.org/interactive/pollution-to-solution/img/poster.jpg">
-				  <meta property="og:image:width" content="1200">
-				  <meta property="og:image:height" content="630">
+				  <meta property="og:image" content="https://www.unep.org/interactive/pollution-to-solution/img/promo.jpg">
+				  <meta property="og:image:width" content="2568">
+				  <meta property="og:image:height" content="1538">
 				  <meta property="twitter:card" content="summary_large_image">
 				  <meta property="twitter:url" content="https://www.unep.org/interactive/pollution-to-solution/">
 				  <meta property="twitter:title" content="Visual Feature | Pollution to Solution: Accessing marine litter and plastic pollution">
 				  <meta property="twitter:description" content="Learn the effects of marine litter and plastic pollution and the solutions that we can implement to reduce the amount of plastic entering the ocean.">
-				  <meta property="twitter:image" content="https://www.unep.org/interactive/pollution-to-solution/img/poster.jpg">
+				  <meta property="twitter:image" content="https://www.unep.org/interactive/pollution-to-solution/img/promo.jpg">
 				  <script type="application/ld+json">
 					{
 					"@context": "https://schema.org",
@@ -97,7 +97,7 @@ export default {
 					},
 					"headline": "Pollution to Solution: Accessing marine litter and plastic pollution",
 					"description": "Learn the effects of marine litter and plastic pollution and the solutions that we can implement to reduce the amount of plastic entering the ocean.",
-					"image": "",  
+					"image": "https://www.unep.org/interactive/pollution-to-solution/img/promo.jpg",  
 					"author": {
 						"@type": "",
 						"name": ""
