@@ -12122,12 +12122,12 @@ var app = (function () {
     	},
     	{
     		type: "download",
-    		downloadlink: "",
     		head: "Download the UNEP report: From Pollution to Solution: a global assessment of marine litter and plastic pollution",
     		cover: "cover",
     		other: "Additional material (infographics)",
     		further: "Further resources",
-    		furtherlink: "",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
     		resources: [
     			{
     				label: "The risks and impacts",
@@ -12198,7 +12198,7 @@ var app = (function () {
     	{
     		item: "Download report",
     		short: "Download",
-    		link: "https://gcrmn.net/2020-report/"
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
     var meta$6 = {
@@ -12473,6 +12473,9 @@ var app = (function () {
     		head: "Télécharger le rapport du PNUE : From Pollution to Solution: a global assessment of marine litter and plastic pollution",
     		cover: "cover",
     		other: "Autres ressources (infographies)",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
+    		further: "Ressources complémentaires",
     		resources: [
     			{
     				label: "Les risques et les effets",
@@ -12543,7 +12546,7 @@ var app = (function () {
     	{
     		item: "Télécharger le rapport",
     		short: "Télécharger",
-    		link: ""
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
     var meta$5 = {
@@ -12815,6 +12818,9 @@ var app = (function () {
     		head: "تنزيل تقرير برنامج الأمم المتحدة للبيئة: من التلوث إلى الحلّ: تقييم عالمي للقمامة البحرية والتلوث البلاستيكي",
     		cover: "cover",
     		other: "موارد أخرى (معلومات بيانية)",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
+    		further: "موارد أخرى",
     		resources: [
     			{
     				label: "المخاطر والآثار",
@@ -13148,9 +13154,12 @@ var app = (function () {
     	},
     	{
     		type: "download",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
     		head: "Скачайте доклад ЮНЕП: От загрязнения к решению: глобальная оценка загрязнения морским мусором и пластиком",
     		cover: "cover",
     		other: "Другие ресурсы (инфографика)",
+    		further: "Дополнительные ресурсы",
     		resources: [
     			{
     				label: "Риски и последствия",
@@ -13221,7 +13230,7 @@ var app = (function () {
     	{
     		item: "Скачать доклад",
     		short: "Скачать",
-    		link: ""
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
     var meta$3 = {
@@ -13496,6 +13505,9 @@ var app = (function () {
     		head: "下载联合国环境规划署报告：《从污染到解决方案：全球海洋垃圾和塑料污染评估》",
     		cover: "cover",
     		other: "其他资源（信息图表）",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
+    		further: "更多资源",
     		resources: [
     			{
     				label: "风险和影响",
@@ -13566,7 +13578,7 @@ var app = (function () {
     	{
     		item: "下载报告",
     		short: "下载",
-    		link: ""
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
     var meta$2 = {
@@ -13840,6 +13852,9 @@ var app = (function () {
     		head: "Pakua ripoti ya UNEP: Kutoka Uchafuzi hadi Suluhisho: tathmini ya ulimwengu ya uchafu wa baharini na uchafuzi wa plastiki",
     		cover: "cover",
     		other: "Nyenzo zingine (picha zenye habari)",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
+    		further: "Rasilimali zingine",
     		resources: [
     			{
     				label: "Hatari na athari",
@@ -13910,7 +13925,7 @@ var app = (function () {
     	{
     		item: "Pakua ripoti",
     		short: "Pakua",
-    		link: ""
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
     var meta$1 = {
