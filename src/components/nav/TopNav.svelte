@@ -12,11 +12,13 @@
 
   const languages = [
     {id: 'EN', name: 'English'},
+    {id: 'ES', name: 'Español'},
     {id: 'FR', name: 'Français'},
     {id: 'ZH', name: '简体中文'},
     {id: 'AR', name: 'العربية'},
     {id: 'RU', name: 'Русский'},
-    {id: 'SW', name: 'Kiswahili'}
+    {id: 'SW', name: 'Kiswahili'},
+    {id: 'ID', name: 'Bahasa Indonesia'}
   ]
 
 </script>

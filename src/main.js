@@ -1,8 +1,8 @@
 import App from './App.svelte';
 import storyEN from './data/story-en.json'
-// import storyES from './data/story-es.json'
+import storyES from './data/story-es.json'
 import storyFR from './data/story-fr.json'
-// import storyID from './data/story-id.json'
+import storyID from './data/story-id.json'
 import storyAR from './data/story-ar.json'
 import storyRU from './data/story-ru.json'
 import storyZH from './data/story-zh.json'
@@ -15,9 +15,9 @@ const lang = (params.has('lang') && langs.some(l => params.get('lang') === l))?p
 
 const url = {
   EN:storyEN,
-//   ES:storyES,
+  ES:storyES,
   FR:storyFR,
-//   ID:storyID,
+  ID:storyID,
 //   PT:storyPT,
   RU:storyRU,
   ZH:storyZH,
