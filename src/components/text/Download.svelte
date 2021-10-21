@@ -12,12 +12,14 @@ export let furtherlink;
   <a class='img_link' href={downloadlink}><img src="./img/{cover}.png" alt="Cover of the report"/></a>
   <h4><a href={downloadlink}>{@html head}</a></h4>
   <section>
+  {#if resources}
   <h4>{@html other}</h4>
   <ul>
-  {#each resources as r}
-  <li class='label'><a href='./graphics/{r.link}' target='_blank'>{r.label}</a></li>
-  {/each}
+    {#each resources as r}
+    <li class='label'><a href='./graphics/{r.link}' target='_blank'>{r.label}</a></li>
+    {/each}
   </ul>
+  {/if}
   <h4><a href={furtherlink}>{@html further}</a></h4>
   </section>
 </section>
@@ -28,6 +30,7 @@ export let furtherlink;
       height:15rem;
       margin-left:3rem;
       margin-top:2rem;
+      margin-bottom:2rem;
       float:right;
       background-color:#DCDCDC;
   }
