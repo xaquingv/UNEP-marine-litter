@@ -5724,7 +5724,7 @@ var app = (function () {
     		c: function create() {
     			section = element("section");
     			img = element("img");
-    			attr_dev(img, "class", "right-illo svelte-qifr14");
+    			attr_dev(img, "class", "right-illo svelte-1tubek4");
     			if (img.src !== (img_src_value = "./img/" + /*illo*/ ctx[0] + ".png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Abstract watercolor illustration");
     			add_location(img, file$9, 4, 0, 69);
@@ -6010,7 +6010,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (44:4) {:else}
+    // (45:4) {:else}
     function create_else_block$2(ctx) {
     	let p;
     	let a;
@@ -6040,11 +6040,11 @@ var app = (function () {
     			attr_dev(a, "href", /*link*/ ctx[2]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-1y2v0ot");
-    			add_location(a, file$7, 44, 24, 1036);
+    			add_location(a, file$7, 45, 24, 1071);
     			attr_dev(p, "class", "download svelte-1y2v0ot");
-    			add_location(p, file$7, 44, 4, 1016);
+    			add_location(p, file$7, 45, 4, 1051);
     			attr_dev(ul, "class", "lang-menu svelte-1y2v0ot");
-    			add_location(ul, file$7, 45, 4, 1089);
+    			add_location(ul, file$7, 46, 4, 1124);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -6100,14 +6100,14 @@ var app = (function () {
     		block,
     		id: create_else_block$2.name,
     		type: "else",
-    		source: "(44:4) {:else}",
+    		source: "(45:4) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (36:4) {#if desktop}
+    // (37:4) {#if desktop}
     function create_if_block$5(ctx) {
     	let ul;
     	let t0;
@@ -6137,11 +6137,11 @@ var app = (function () {
     			attr_dev(a, "href", /*link*/ ctx[2]);
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-1y2v0ot");
-    			add_location(a, file$7, 40, 27, 940);
+    			add_location(a, file$7, 41, 27, 975);
     			attr_dev(li, "class", "download svelte-1y2v0ot");
-    			add_location(li, file$7, 40, 6, 919);
+    			add_location(li, file$7, 41, 6, 954);
     			attr_dev(ul, "class", "svelte-1y2v0ot");
-    			add_location(ul, file$7, 36, 4, 814);
+    			add_location(ul, file$7, 37, 4, 849);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, ul, anchor);
@@ -6196,14 +6196,14 @@ var app = (function () {
     		block,
     		id: create_if_block$5.name,
     		type: "if",
-    		source: "(36:4) {#if desktop}",
+    		source: "(37:4) {#if desktop}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (47:10) {#each languages as l}
+    // (48:10) {#each languages as l}
     function create_each_block_1(ctx) {
     	let li;
     	let a;
@@ -6217,9 +6217,9 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(a, "href", "?lang=" + /*l*/ ctx[13].id);
     			attr_dev(a, "class", "svelte-1y2v0ot");
-    			add_location(a, file$7, 47, 14, 1159);
+    			add_location(a, file$7, 48, 14, 1194);
     			attr_dev(li, "class", "svelte-1y2v0ot");
-    			add_location(li, file$7, 47, 10, 1155);
+    			add_location(li, file$7, 48, 10, 1190);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -6236,14 +6236,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(47:10) {#each languages as l}",
+    		source: "(48:10) {#each languages as l}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (38:6) {#each languages as l}
+    // (39:6) {#each languages as l}
     function create_each_block$4(ctx) {
     	let li;
     	let a;
@@ -6257,9 +6257,9 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(a, "href", "?lang=" + /*l*/ ctx[13].id);
     			attr_dev(a, "class", "svelte-1y2v0ot");
-    			add_location(a, file$7, 38, 10, 858);
+    			add_location(a, file$7, 39, 10, 893);
     			attr_dev(li, "class", "svelte-1y2v0ot");
-    			add_location(li, file$7, 38, 6, 854);
+    			add_location(li, file$7, 39, 6, 889);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -6276,7 +6276,7 @@ var app = (function () {
     		block,
     		id: create_each_block$4.name,
     		type: "each",
-    		source: "(38:6) {#each languages as l}",
+    		source: "(39:6) {#each languages as l}",
     		ctx
     	});
 
@@ -6326,7 +6326,7 @@ var app = (function () {
     			t = space();
     			if_block.c();
     			attr_dev(nav, "class", nav_class_value = "" + (null_to_empty(/*desktop*/ ctx[8] ? /*placement*/ ctx[7] : "below") + " svelte-1y2v0ot"));
-    			add_location(nav, file$7, 26, 0, 637);
+    			add_location(nav, file$7, 27, 0, 672);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6425,6 +6425,7 @@ var app = (function () {
     	const languages = [
     		{ id: "EN", name: "English" },
     		{ id: "ES", name: "Español" },
+    		{ id: "PT", name: "Português" },
     		{ id: "FR", name: "Français" },
     		{ id: "ZH", name: "简体中文" },
     		{ id: "AR", name: "العربية" },
@@ -11911,7 +11912,7 @@ var app = (function () {
     	}
     }
 
-    var article$7 = [
+    var article$8 = [
     	{
     		type: "intro",
     		head: "From Pollution<br/> <b>to Solution</b>",
@@ -12199,29 +12200,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$6 = [
+    var resources$7 = [
     ];
-    var menu$8 = [
+    var menu$9 = [
     	{
     		item: "Download report",
     		short: "Download",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$8 = {
+    var meta$9 = {
     	title: "From Pollution to Solution",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "A rigorous assessment of various health, economic, ecosystem, wildlife and climate threats and solutions associated with marine litter and plastic pollution.",
     	keywords: "Plastic on Beaches, Clean Seas, Ocean Pollution, Plastic Pollution, Litter in the Ocean, Plastic Wastes, Sources of Water Pollution"
     };
     var storyEN = {
-    	article: article$7,
-    	resources: resources$6,
-    	menu: menu$8,
-    	meta: meta$8
+    	article: article$8,
+    	resources: resources$7,
+    	menu: menu$9,
+    	meta: meta$9
     };
 
-    var article$6 = [
+    var article$7 = [
     	{
     		type: "intro",
     		head: "De la contaminación<br/> <b>a la solución</b>",
@@ -12509,29 +12510,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$5 = [
+    var resources$6 = [
     ];
-    var menu$7 = [
+    var menu$8 = [
     	{
     		item: "Descargar el informe",
     		short: "Descargar",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$7 = {
+    var meta$8 = {
     	title: "De la contaminación a la solución",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "Una evaluación rigurosa de las distintas amenazas para la salud, la economía, los ecosistemas, la fauna y flora silvestres y el clima y las soluciones relacionadas con la basura marina y la contaminación por plásticos.",
     	keywords: "Plástico en las playas, Mares limpios, Contaminación de los océanos, Contaminación por plástico, Basura en el océano, Residuos de plástico, Fuentes de contaminación del agua"
     };
     var storyES = {
-    	article: article$6,
-    	resources: resources$5,
-    	menu: menu$7,
-    	meta: meta$7
+    	article: article$7,
+    	resources: resources$6,
+    	menu: menu$8,
+    	meta: meta$8
     };
 
-    var article$5 = [
+    var article$6 = [
     	{
     		type: "intro",
     		head: "De la pollution<br/> <b>à la solution</b>",
@@ -12819,29 +12820,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$4 = [
+    var resources$5 = [
     ];
-    var menu$6 = [
+    var menu$7 = [
     	{
     		item: "Télécharger le rapport",
     		short: "Télécharger",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$6 = {
+    var meta$7 = {
     	title: "De la pollution à la solution",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "Une évaluation rigoureuse de diverses menaces qui pèsent sur la santé, l’économie, les écosystèmes, la vie sauvage et le climat ainsi que des solutions associées aux déchets marins et à la pollution plastique.",
     	keywords: "Plastique sur les plages, campagne Clean Seas, Pollution marine, Pollution plastique, Déchets marins, Déchets plastiques, Sources de pollution de l’eau"
     };
     var storyFR = {
-    	article: article$5,
-    	resources: resources$4,
-    	menu: menu$6,
-    	meta: meta$6
+    	article: article$6,
+    	resources: resources$5,
+    	menu: menu$7,
+    	meta: meta$7
     };
 
-    var article$4 = [
+    var article$5 = [
     	{
     		type: "intro",
     		head: "Dari Polusi<br/> <b>ke Solusi</b>",
@@ -13129,29 +13130,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$3 = [
+    var resources$4 = [
     ];
-    var menu$5 = [
+    var menu$6 = [
     	{
     		item: "Unduh laporan",
     		short: "Unduh",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$5 = {
+    var meta$6 = {
     	title: "Dari Polusi ke Solusi",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "Suatu kajian saksama terhadap berbagai ancaman kesehatan, ekonomi, ekosistem, satwa liar serta iklim dan solusi yang terkait dengan sampah laut dan polusi plastik.",
     	keywords: "Plastik di Pantai, Laut Bersih, Polusi Laut, Polusi Plastik, Sampah di Laut, Sampah Plastik, Sumber Polusi Air"
     };
     var storyID = {
-    	article: article$4,
-    	resources: resources$3,
-    	menu: menu$5,
-    	meta: meta$5
+    	article: article$5,
+    	resources: resources$4,
+    	menu: menu$6,
+    	meta: meta$6
     };
 
-    var article$3 = [
+    var article$4 = [
     	{
     		type: "intro",
     		head: "من التلوث<br/> <b>إلى الحلّ</b>",
@@ -13430,26 +13431,26 @@ var app = (function () {
     		]
     	}
     ];
-    var menu$4 = [
+    var menu$5 = [
     	{
     		item: "تحميل التقرير",
     		short: "تحميل",
     		link: ""
     	}
     ];
-    var meta$4 = {
+    var meta$5 = {
     	title: "من التلوث إلى الحل",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "تقييم صارم لمختلف التهديدات الصحية والاقتصادية والتهديدات التي تواجه النُّظم الإيكولوجية والحياة البرية والتهديدات المناخية والحلول المرتبطة بالقمامة البحرية والتلوث البلاستيكي.",
     	keywords: "البلاستيك على الشواطئ، بحارٌ نظيفة، تلوث المحيطات، التلوث البلاستيكي، القمامة في المحيط، النفايات البلاستيكية، مصادر تلوث المياه"
     };
     var storyAR = {
-    	article: article$3,
-    	menu: menu$4,
-    	meta: meta$4
+    	article: article$4,
+    	menu: menu$5,
+    	meta: meta$5
     };
 
-    var article$2 = [
+    var article$3 = [
     	{
     		type: "intro",
     		head: "От загрязнения<br/> <b>к решению</b>",
@@ -13737,29 +13738,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$2 = [
+    var resources$3 = [
     ];
-    var menu$3 = [
+    var menu$4 = [
     	{
     		item: "Скачать доклад",
     		short: "Скачать",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$3 = {
+    var meta$4 = {
     	title: "От загрязнения к решению проблемы",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "Тщательная оценка различных угроз для здоровья, экономики, экосистем, дикой природы и климата, а также решений, связанных с морским мусором и загрязнением пластиком.",
     	keywords: "Пластик на пляжах, Чистые моря, Загрязнение океана, Загрязнение пластиком, Мусор в океане, Пластиковые отходы, Источники загрязнения воды"
     };
     var storyRU = {
-    	article: article$2,
-    	resources: resources$2,
-    	menu: menu$3,
-    	meta: meta$3
+    	article: article$3,
+    	resources: resources$3,
+    	menu: menu$4,
+    	meta: meta$4
     };
 
-    var article$1 = [
+    var article$2 = [
     	{
     		type: "intro",
     		head: "从污染<br/><b>到解决方案</b>",
@@ -14047,29 +14048,29 @@ var app = (function () {
     		]
     	}
     ];
-    var resources$1 = [
+    var resources$2 = [
     ];
-    var menu$2 = [
+    var menu$3 = [
     	{
     		item: "下载报告",
     		short: "下载",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$2 = {
+    var meta$3 = {
     	title: "从污染到解决方案",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "对与海洋垃圾和塑料污染有关的各种健康、经济、生态系统、野生动物和气候威胁及解决方案的严格评估。",
     	keywords: "海滩上的塑料, 清洁海洋, 海洋污染, 塑料污染, 海洋中的垃圾, 塑料垃圾, 水污染的来源"
     };
     var storyZH = {
-    	article: article$1,
-    	resources: resources$1,
-    	menu: menu$2,
-    	meta: meta$2
+    	article: article$2,
+    	resources: resources$2,
+    	menu: menu$3,
+    	meta: meta$3
     };
 
-    var article = [
+    var article$1 = [
     	{
     		type: "intro",
     		head: "Kutoka Uchafuzi<br/> <b>hadi Suluhisho</b>",
@@ -14356,32 +14357,340 @@ var app = (function () {
     		]
     	}
     ];
-    var resources = [
+    var resources$1 = [
     ];
-    var menu$1 = [
+    var menu$2 = [
     	{
     		item: "Pakua ripoti",
     		short: "Pakua",
     		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
     	}
     ];
-    var meta$1 = {
+    var meta$2 = {
     	title: "Kutoka Uchafuzi hadi Suluhisho",
     	url: "unep.org/interactive/pollution-to-solution",
     	description: "Tathmini kali ya afya, uchumi, mifumo ya ikolojia, wanyama pori na vitisho vya hali ya hewa na suluhisho zinazohusiana na uchafu wa bahari na uchafuzi wa plastiki.",
     	keywords: "Plastiki kwenye Fukwe, Bahari safi, Uchafuzi wa Bahari, Uchafuzi wa Plastiki, Taka katika Bahari, Uchafu wa Plastiki, Vyanzo vya Uchafuzi wa Maji"
     };
     var storySW = {
+    	article: article$1,
+    	resources: resources$1,
+    	menu: menu$2,
+    	meta: meta$2
+    };
+
+    var article = [
+    	{
+    		type: "intro",
+    		head: "Da Poluição<br/> <b>à Solução</b>",
+    		video: "intro",
+    		text: [
+    			{
+    				p: "O que o ponto mais profundo do oceano, <b>as Fossas Marianas</b>, e o pico de montanha mais alto do mundo, <b>Monte Everest, têm em comum</b>?"
+    			},
+    			{
+    				p: "Apesar de estarem entre os ecossistemas mais remotos e inacessíveis do planeta, <b>estes dois possuem pequenos pedaços de plástico provenientes de atividades humanas</b> a quilômetros de distância."
+    			},
+    			{
+    				p: "<b>Plásticos</b> são a maior, mais prejudicial e mais persistente parcela do lixo no mar, representando pelo menos <b>85 por cento do total de lixo no mar</b>."
+    			},
+    			{
+    				p: "O lixo no mar é encontrado em <b>volumes crescentes</b> ao longo de nossas costas e estuários, em gigantescas correntes meso-oceânicas, em ilhas remotas, no gelo marinho..."
+    			},
+    			{
+    				p: "... atravessando o fundo do mar, desde as regiões polares até as fossas mais profundas e escuras, <b> prejudicando a vida marinha</b> e danificando habitats pelo caminho."
+    			}
+    		]
+    	},
+    	{
+    		type: "series",
+    		tag: "Esta história faz parte de uma série do PNUMA que mostra como a humanidade pode viver em mais harmonia com a natureza, em um planeta livre de poluição e com um clima estável.",
+    		kicker: "Mais histórias da série",
+    		stories: [
+    			{
+    				item: "Vida Abaixo d’Água",
+    				link: "https://www.unep.org/interactive/status-world-coral-reefs/"
+    			}
+    		]
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "Durante os últimos 70 anos, o plástico - um material extremamente maleável, versátil e durável - infiltrou-se no mercado e alcançou, aparentemente, todos os recantos da Terra. O plástico pode proporcionar benefícios importantes, em aplicações que vão desde equipamentos médicos que salvam vidas até o armazenamento seguro e duradouro de alimentos. Entretanto, produtos plásticos desnecessários e evitáveis, particularmente embalagens de uso único e itens descartáveis, estão poluindo nosso planeta a taxas alarmantes. Décadas de crescimento econômico e uma crescente dependência de produtos plásticos descartáveis têm levado a uma enxurrada de resíduos não gerenciados que se espalham por lagos, rios, áreas costeiras e, até mesmo, pelo mar, provocando uma série de problemas."
+    			},
+    			{
+    				p: "<strong><a href=\"\">Da Poluição à Solução: Uma análise global sobre lixo marinho e poluição plástica </a></strong> mostra que existe uma ameaça crescente em todos os ecossistemas desde a produção até o mar. Mostra também que, embora tenhamos o conhecimento, precisamos da vontade política e da ação urgente dos governos para enfrentar a crise crescente. O relatório informará as ações prioritárias na Assembleia da ONU para o Meio Ambiente (UNEA 5.2) em 2022, onde os países se reunirão para decidir um caminho para a cooperação global. O novo relatório da ONU adverte que, a menos que consigamos lidar com nosso problema de plásticos:"
+    			}
+    		]
+    	},
+    	{
+    		type: "scrolly-video",
+    		video: "litter",
+    		text: [
+    			{
+    				p: "Sem uma ação urgente, as 11 milhões de toneladas de plástico que hoje chegam ao oceano anualmente triplicarão nos próximos vinte anos."
+    			},
+    			{
+    				p: "Isto significaria entre 23 e 37 milhões de toneladas de plástico escoando para o oceano todos os anos até 2040."
+    			},
+    			{
+    				p: "Isso equivale a 50 quilos de plástico por metro de litoral em todo o mundo ..."
+    			},
+    			{
+    				p: "… ou o peso de 178 Symphony of the Seas, o maior navio de cruzeiro do mundo."
+    			}
+    		]
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "O problema surge durante uma crise global que requer atenção e ações imediatas e sustentáveis. Esta avaliação nos dá o alerta definitivo para a onipresença do lixo no mar e os impactos adversos da poluição plástica - da degradação ambiental às perdas econômicas para as comunidades e indústrias, aos riscos à saúde humana - e nos mostra como podemos fazer melhor. É hora de darmos as mãos para reverter a maré no que se refere ao lixo no mar e à poluição plástica, implementando as muitas - grandes e pequenas - soluções disponíveis, com urgência, inovação, compromisso e responsabilidade."
+    			}
+    		]
+    	},
+    	{
+    		type: "pill",
+    		short: "Quão pequenos são os microplásticos e nanoplásticos?",
+    		long: "Microplásticos e nanoplásticos são pedaços de plásticos que medem de 5 milímetros a poucos nanômetros."
+    	},
+    	{
+    		type: "text",
+    		head: "Prejuízo à Vida Marinha",
+    		text: [
+    			{
+    				p: "O lixo no mar e a poluição plástica são problemáticos por muitas razões. Os plásticos não se biodegradam (decomposição natural sem gerar resíduos prejudiciais ao meio ambiente). Em vez disso, eles se decompõem com o tempo em pedaços cada vez menores conhecidos como microplásticos e nanoplásticos, que podem ter impactos prejudiciais significativos."
+    			},
+    			{
+    				p: "Os impactos na vida marinha variam de danos físicos ou químicos a animais específicos, a efeitos mais amplos sobre a biodiversidade e o funcionamento do ecossistema. Pedaços de plástico foram encontrados no sistema digestivo de muitos seres aquáticos, inclusive em todas as espécies de tartarugas marinhas e em quase metade das espécies de aves marinhas e mamíferos marinhos pesquisados."
+    			}
+    		]
+    	},
+    	{
+    		type: "scrolly-video",
+    		video: "harm_to_animals",
+    		text: [
+    			{
+    				p: "Tartarugas marinhas confundem sacolas plásticas com água-viva, lentamente morrendo de fome enquanto seus estômagos se enchem de lixo indigesto."
+    			},
+    			{
+    				p: "Aves marinhas bicam plásticos porque eles<a href=\"https://www.nature.com/articles/376680a0.epdf?sharing_token=XzA3pMyq1-90bp8IHPsDiNRgN0jAjWel9jnR3ZoTv0NjqwHPzT2EZOmoupSkNogAcZGDea6VHenadcy2ZVTQLAQygdRw7H4UC7py46oKWTeTp_jR-LXk4EUiQD6fCfvgRxa9FeT2BsqDP4gNHAHc1UOJNEfRsAF6L4Fzte3kHmnRcOOaeLbB7-DtdeGWOnUkVs0C8l8RNzNyQal8GyWw8jg93siTVTmEMCZPcazH8Z6Ugd6g-RzwR2_TN5PgL8qQP1k1RCdu4pqP8R7_z_ucaoN-S1AoVv52tqlLZZR6c5k%3D&amp;tracking_referrer=www.scientificamerican.com\">têm cheiro e aparência de comida</a>."
+    			},
+    			{
+    				p: "Mamíferos marinhos, tartarugas marinhas e outros animais muitas vezes se afogam após ficarem presos em <a href=\"https://www.fisheries.noaa.gov/alaska/marine-life-distress/pinniped-entanglement-marine-debris\">plásticos perdidos ou descartados</a> incluindo embalagens ou artigos de pesca."
+    			},
+    			{
+    				p: "Uma das principais causas de morte para a<a href=\"https://www.fisheries.noaa.gov/species/north-atlantic-right-whale\">Baleia-franca-do-atlântico-norte</a>, uma das baleias mais ameaçadas do mundo, é ficar atolada em redes de pesca fantasma."
+    			}
+    		]
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "Há impactos menos óbvios também. Não apenas as toxinas já encontradas nos plásticos afetam a teia alimentar oceânica, mas também se sabe que os pedaços de plástico absorvem os poluentes que escoam da terra para o mar, incluindo os resíduos farmacêuticos e industriais. A toxicidade pode se transferir através da cadeia alimentar à medida que as espécies marinhas se alimentam e se tornam alimento. Há também uma preocupação crescente sobre as espécies não nativas que atravessam o oceano em busca de lixo que flutua em mares e solos estrangeiros, tais como algas, moluscos e cracas, que podem invadir e degradar ambientes e espécies aquáticas distantes. O problema é agravado pelo fato de que a maioria do lixo plástico no oceano eventualmente naufraga como uma pilha de lixo submersa, sufocando os recifes de corais e a vida marinha no fundo do mar."
+    			}
+    		]
+    	},
+    	{
+    		type: "illo",
+    		illo: "woman"
+    	},
+    	{
+    		type: "text",
+    		head: "Prejuízos à humanidade",
+    		text: [
+    			{
+    				p: "Os seres humanos também estão em risco devido ao lixo no mar e à poluição plástica. A saúde ambiental está intrinsecamente ligada à saúde humana. A onipresença dos microplásticos em todo o nosso planeta suscita sérias preocupações quanto à segurança das pessoas. <a href=\"https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/august/micro-and-nanoplastics-detectable-in-human-tissues.html\">Nova pesquisa</a> mostra que as pessoas estão inalando microplásticos através do ar, consumindo-os através de alimentos e água e até mesmo absorvendo-os através da pele. Microplásticos foram encontrados até mesmo dentro de<strong>nossos pulmões, fígados, baços e rins</strong>e um estudo recente encontrou microplásticos em <strong> placentas</strong> de recém-nascidos."
+    			},
+    			{
+    				p: "A extensão total do impacto na saúde humana ainda é desconhecida, uma vez que a pesquisa é incipiente. Há, entretanto, evidências substanciais de que produtos químicos associados aos plásticos, tais como metilmercúrio, plastificantes e retardantes de chama, podem entrar no corpo e estão ligados a problemas de saúde, especialmente nas mulheres. Os cientistas também acreditam que alguns dos produtos químicos comuns encontrados nos plásticos, tais como bisfenol A, ftalatos e bifenilos policlorados (PCBs), são capazes de penetrar no corpo. Estes produtos químicos têm sido ligados à disrupção endócrina, desordens de desenvolvimento, anormalidades reprodutivas e câncer. Isso é razão suficiente para que se adote uma abordagem preventiva."
+    			}
+    		]
+    	},
+    	{
+    		type: "pill",
+    		short: "China baniu a importação da maior parte de lixo plástico",
+    		long: "Em 2018, a China baniu a importação da maior parte de lixo plástico a fim de ajudar a melhorar o meio ambiente, a qualidade do ar e a economia dentro de suas fronteiras, já que a maior parte do lixo acabava em aterros sanitários ou em hidrovias e no solo."
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "Os impactos da poluição plástica não são sentidos igualmente em todo o mundo. Países mais ricos produzem mais resíduos plásticos, que com grande frequência escoam para países menos desenvolvidos, onde a gestão de resíduos é menos sofisticada. A reciclagem pode ajudar a reduzir a produção de plástico e os resíduos plásticos; no entanto, um grande problema é a baixa taxa de reciclagem de plásticos em todo o mundo, que atualmente é inferior a 10%."
+    			},
+    			{
+    				p: "As populações dos países em desenvolvimento são as menos capazes de administrar a carga ambiental, sanitária, social e cultural da poluição plástica, devido à falta de apoio ou fundos governamentais. Isso significa que mulheres, crianças, catadores e catadoras de material reciclável, comunidades costeiras, povos indígenas e pessoas que dependem do oceano <a href=\"https://www.unescap.org/sites/default/files/publications/CS76%20Theme%20Study.pdf\">sentem os impactos mais intensamente</a>, particularmente quando transportam ou queimam lixo mal administrado. Isto também significa que estas economias sofrem, pois são sufocadas pelo plástico."
+    			},
+    			{
+    				p: "Os plásticos marinhos impactam negativamente a capacidade de uma multiplicidade de ecossistemas de proporcionar os benefícios básicos que os seres humanos desfrutam, mas consideram como dados, que vão desde água limpa até aquicultura e pesca produtiva, controle de pragas e doenças, regulação climática, e patrimônio e recreação. De acordo com a avaliação Da Poluição à Solução, a poluição plástica marinha reduz serviços valiosos atrelados ao ecossistema marinho em pelo menos U$500 bilhões a U$2.500 bilhões por ano, e isso não inclui outras perdas sociais e econômicas, como o turismo e a navegação."
+    			},
+    			{
+    				p: "A avaliação destaca que as perdas econômicas diretas para as indústrias costeira e marítima, tais como a pesca e o transporte marítimo, são significativas. Na região do Mediterrâneo, estas perdas foram estimadas em cerca de US$138 milhões por ano. Na região da Cooperação Econômica Ásia-Pacífico, as perdas totalizam US$10,8 bilhões, um aumento de quase dez vezes em relação a 2009. No entanto, estas perdas não são bem reportadas, e os custos reais do lixo no mar e da poluição plástica na saúde humana, ambiental e social ainda estão sendo descobertos."
+    			}
+    		]
+    	},
+    	{
+    		type: "header",
+    		head: "Plásticos e Mudança climática",
+    		video: "coral-polluted"
+    	},
+    	{
+    		type: "pill",
+    		short: "Desproporcionalidade entre tartarugas macho e fêmea?",
+    		long: "Os microplásticos podem elevar a temperatura da areia nas praias onde as tartarugas marinhas fazem seus ninhos. Como a temperatura da areia determina o sexo das tartarugas, ninhos mais quentes podem alterar a proporção de tartarugas machos e fêmeas que chocam nestas praias."
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "Os plásticos também são um problema climático. Nem todos sabem que o plástico é essencialmente produzido a partir do petróleo, um combustível fóssil. Quanto mais plástico produzimos, mais combustível fóssil é necessário, e mais intensificamos a crise climática em um contínuo ciclo prejudicial. Além disso, a produção de plástico cria emissões de gases de efeito estufa ao longo de todo o seu ciclo de vida. Se nenhuma ação for tomada, as emissões de gases de efeito estufa da produção, reciclagem e incineração de plásticos poderiam ser responsáveis por  <a href=\"https://www.pewtrusts.org/-/media/assets/2020/07/breakingtheplasticwave_report.pdf\">19% do total de emissões definidas pelo Acordo de Paris em 2040</a> para limitar o aquecimento a 1,5 graus Celsius."
+    			},
+    			{
+    				p: "Nos últimos anos, tem havido uma urgência crescente para proteger o oceano e os mares, a fim de combater a mudança climática. O oceano é o maior reservatório de carbono do planeta, armazenando <a href=\"https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content\"> até 90 por cento do calor adicional que as emissões de carbono têm retido em nossa atmosfera</a> e um terço do dióxido de carbono adicional gerado desde a revolução industrial. A absorção de grandes quantidades de carbono retardou os impactos visíveis de um planeta em aquecimento - mas também acelerou os efeitos catastróficos abaixo da superfície da água - um oceano aquecido, acidificado e quimicamente desequilibrado."
+    			},
+    			{
+    				p: "O carbono é capturado em todos os elementos do oceano, especialmente manguezais, gramas marinhas, corais e pântanos salgados. Quanto mais danos fazemos às nossas áreas oceânicas e costeiras, mais difícil é para estes ecossistemas tanto compensar como permanecer resistentes às mudanças climáticas."
+    			},
+    			{
+    				p: "De forma alarmante, <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0048969721002886\">um estudo recente</a> sobre a poluição marinha por plástico pela GRID-Arendal, parceira do PNUMA, indica que os quatro ecossistemas costeiros que armazenam mais carbono e servem como barreiras naturais contra a subida dos mares e tempestades - manguezais, gramas marinhas, pântanos salgados e recifes de corais - estão sendo colocados sob pressão da poluição plástica terrestre como consequência de sua proximidade com os rios. Mais do que nunca, o levantamento e a pesquisa de lixo no mar são essenciais para prever as consequências das pressões, projetar abordagens de mitigação e orientar a adaptação."
+    			}
+    		]
+    	},
+    	{
+    		type: "pill",
+    		short: "Florestas de manguezais saudáveis",
+    		long: "<a href=\"https://www.sciencedaily.com/releases/2011/04/110404173247.htm\">As florestas de manguezais saudáveis armazenam mais carbono por unidade de área do que quase qualquer outra floresta na Terra</a>."
+    	},
+    	{
+    		type: "header",
+    		head: "Da poluição plástica à solução",
+    		video: "waste"
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "A poluição desenfreada, o colapso da biodiversidade e a mudança climática são as crises planetárias mais urgentes de nosso tempo. O rápido crescimento da produção de plástico já representa ameaças aos sistemas naturais da Terra, dos quais a vida depende, e a projeção é de piora. Até 2040, espera-se que os resíduos plásticos apresentem um risco financeiro anual de 100 bilhões de dólares para as empresas que precisariam arcar com os custos da gestão de resíduos. Estima-se que <a href=\"https://www.eionet.europa.eu/etcs/etc-wmge/products/impact-of-covid-19-on-single-use-plastics-and-the-environment-in-europe\" target=\"_blank\"> só na Itália, entre 160.000 e 440.000 toneladas de resíduos adicionais</a> foram produzidas em 2020 devido à intensificação da dependência de equipamentos médicos <strong>protetivos durante a pandemia de Covid-19</strong>. Se apenas 1% das máscaras de uso único que contribuem para este número fossem descartadas indevidamente, até 10 milhões de máscaras poderiam penetrar e poluir o oceano por mês."
+    			},
+    			{
+    				p: "Embora a quantidade de plásticos no mar que precisamos enfrentar seja tão grande a ponto de ser difícil de acompanhar, a ciência nos diz que a maioria das soluções de que precisamos já existem. Inúmeras atividades regionais, nacionais e locais estão ajudando a reduzir o fluxo de plásticos para o oceano, tais como as Convenções Marinhas Regionais, proibições nacionais de produtos plásticos de uso único, compromisso de<a href=\"https://ellenmacarthurfoundation.org/topics/the-global-commitment/overview\">empresas e governos</a> para reduzir, redesenhar e reutilizar os produtos plásticos, aumentar o conteúdo de plástico reciclado em novos produtos, iniciativas municipais de contenção e proibições de sacolas."
+    			},
+    			{
+    				p: "\"<a href=\"https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings\" target=\"_blank\">Quebrando a Onda de Plástico</a>\", uma análise global de como mudar a trajetória dos resíduos plásticos, revela que podemos reduzir a quantidade de plástico que entra no oceano em cerca de 80% nas próximas duas décadas, se utilizarmos as tecnologias e soluções existentes."
+    			},
+    			{
+    				p: "Continuar com as mesmas atitudes de sempre (business-as-usual) simplesmente não é uma opção. A avaliação Da Poluição à Solução explica que a escala do problema exige compromissos e ações urgentes a nível global, em todo o ciclo de vida do plástico, e da produção até o mar para alcançar a redução necessária de resíduos a longo prazo."
+    			}
+    		]
+    	},
+    	{
+    		type: "big-text",
+    		text: [
+    			{
+    				illo: "small-illos-02",
+    				p: "Melhorar os sistemas de gestão de resíduos para que a infraestrutura correta esteja disponível para receber os resíduos plásticos e garantir que uma alta proporção possa ser reutilizada ou reciclada."
+    			},
+    			{
+    				illo: "small-illos-03",
+    				p: "Melhorar a circularidade promovendo práticas de consumo e produção mais sustentáveis em toda a cadeia de valor do plástico."
+    			},
+    			{
+    				illo: "small-illos-04",
+    				p: "Envolver os consumidores no combate à poluição plástica para influenciar o mercado e inspirar mudanças comportamentais."
+    			},
+    			{
+    				illo: "small-illos-05",
+    				p: "Fechar a torneira eliminando itens de plástico desnecessários, evitáveis e problemáticos, substituindo-os por materiais, produtos e serviços alternativos."
+    			},
+    			{
+    				illo: "small-illos-06",
+    				p: "Lidar com o legado através de um monitoramento eficaz para identificar fontes, quantidades e o destino dos plásticos."
+    			},
+    			{
+    				illo: "small-illos-07",
+    				p: "Melhorar e fortalecer a governança em todos os níveis."
+    			},
+    			{
+    				illo: "small-illos-08",
+    				p: "Aumentar o conhecimento e monitorar a eficácia usando ciência rigorosa."
+    			},
+    			{
+    				illo: "small-illos-09",
+    				p: "Melhorar o financiamento com assistência técnica e desenvolvimento de capacidades."
+    			}
+    		]
+    	},
+    	{
+    		type: "text",
+    		text: [
+    			{
+    				p: "Vários acordos e convenções internacionais existentes já fornecem apoio para reduzir a poluição marinha, combater a mudança climática (ODS 13) e utilizar os oceanos de forma sustentável (ODS 14). A Parceria Global sobre Lixo no mar, a Convenção das Nações Unidas sobre o Direito do Mar e a Convenção sobre Diversidade Biológica estão diretamente relacionadas com a saúde do oceano, seus ecossistemas e a vida marinha. As convenções da Basiléia, Estocolmo e Roterdão estão relacionadas ao transporte e ao descarte de resíduos perigosos e produtos químicos. Há também uma forte tendência para um acordo global sobre lixo no mar e poluição plástica para combater este problema."
+    			},
+    			{
+    				p: "Não há uma solução única. Como em muitas violações ambientais intergeracionais, isto requer pensamento, inovação e transformação dos sistemas. Entretanto, o objetivo é único: reduzir o uso de plásticos desnecessários, evitáveis e problemáticos, e interromper seu escoamento para nossos lagos, rios, pântanos, costas e mares. Estamos no mesmo barco, e não só podemos, mas devemos resolver o lixo no mar e o problema da poluição plástica."
+    			}
+    		]
+    	},
+    	{
+    		type: "download",
+    		head: "Faça o download do relatório do PNUMA: Da Poluição à Solução: uma análise global sobre lixo marinho e poluição plástica",
+    		cover: "cover",
+    		other: "Infográficos",
+    		further: "Outros recursos",
+    		downloadlink: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf",
+    		furtherlink: "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution"
+    	},
+    	{
+    		type: "footer",
+    		head: "Junte-se ao PNUMA para agir agora!",
+    		text: [
+    			{
+    				p: "A <a href=\"https://www.unep.org/environmentassembly/about-united-nations-environment-assembly\">Assembleia da ONU para o Meio Ambiente </a> (UNEA) é o órgão decisório de mais alto nível do mundo sobre o meio ambiente, com uma filiação universal de todos os 193 Estados Membros. A Assembleia estabelece prioridades para políticas ambientais globais, desenvolve o direito ambiental internacional, proporciona liderança, catalisa a ação intergovernamental sobre o meio ambiente e contribui para a implementação da <a href=\"https://sustainabledevelopment.un.org/\">Agenda 2030 das Nações Unidas para o Desenvolvimento Sustentável</a>. Esta avaliação histórica incitará os governos na próxima UNEA-5.2, em fevereiro de 2022, a tomar medidas decisivas e globais para enfrentar a crise do plástico. O credenciamento junto ao Programa das Nações Unidas para o Meio Ambiente permitirá a sua participação. As organizações são encorajadas a enviar pedidos de credenciamento em breve para que possam ser processados a tempo. Saiba mais <a href=\"https://www.unep.org/civil-society-engagement/accreditation\">aqui</a>."
+    			},
+    			{
+    				p: "Enraizada no trabalho de longa data do PNUMA e da <a href=\"https://unep-marine-litter.vercel.app/\">Parceria Global sobre Lixo no Mar (GPML)</a>, a <a href=\"https://www.cleanseas.org/\">Campanha Mares Limpos</a> está conectando e mobilizando indivíduos, grupos da sociedade civil, indústria e governos para catalisar mudanças e transformar hábitos, práticas, padrões e políticas em todo o mundo para reduzir drasticamente o lixo no mar e seus impactos negativos. Até hoje, 63 países aderiram, e mais de cem mil indivíduos se comprometeram com a campanha através de promessas de ação, compromissos e interações nas mídias sociais. Descubra como aderir e assumir o compromisso #MaresLimpos <a href=\"https://www.cleanseas.org/make-pledge\">aqui</a>."
+    			},
+    			{
+    				p: "A <a href=\"https://www.gpmarinelitter.org/\">Parceria Global sobre Lixo no mar</a> (GPML) reúne todos os atores que trabalham com lixo no mar e prevenção e redução da poluição plástica. Todas as entidades que trabalham para tratar desta questão global urgente estão convidadas a se juntar ao GPML <a href=\"https://www.gpmarinelitter.org/who-we-are/members/sign-up\">aqui</a>. A Plataforma Digital GPML é uma plataforma de código aberto multistakeholder que compila diferentes recursos, conecta as partes interessadas e integra dados para orientar a ação, com o objetivo de promover o acesso equitativo aos dados, informações, tecnologia e inovação. Descubra mais e junte-se a <a href=\"https://digital.gpmarinelitter.org/\">aqui</a>!"
+    			},
+    			{
+    				p: "O <a href=\"https://www.oneplanetnetwork.org/sustainable-tourism/global-tourism-plastics-initiative”>Compromisso Global pela Nova Economia do Plástico</a> une empresas, governos e outras organizações ao longo da cadeia de valor do plástico em torno <a href=\"https://emf.thirdlight.com/link/86tanzqdbppx-8rdpns/@/preview/1?o\">de uma visão comum</a> e visa a abordar o resíduo plástico e a poluição em sua fonte. Ela é liderada pela Fundação <a href=\"https://ellenmacarthurfoundation.org/\">Ellen MacArthur</a> em colaboração com <a href=\"https://www.unep.org/\">PNUMA</a>. Os signatários se comprometem a tomar ações específicas para ELIMINAR o plástico que não precisamos; INOVAR para garantir que os produtos plásticos de que precisamos sejam reutilizáveis, recicláveis ou compostáveis; e CIRCULAR todos os itens plásticos que usamos para mantê-los na economia e fora do meio ambiente."
+    			},
+    			{
+    				p: "A <a href=\"https://www.oneplanetnetwork.org/sustainable-tourism/global-tourism-plastics-initiative\">Iniciativa Global para a Circularidade do Plásticos no Turismo</a> (GTPI) é a interface do Compromisso Global com o setor de Turismo. Mais de 600 organizações, incluindo 20 governos de todo o mundo, e mais de 350 empresas representando mais de 20% das embalagens plásticas utilizadas globalmente são signatárias do Compromisso Global e do GTPI."
+    			},
+    			{
+    				p: "A iniciativa<a href=\"https://www.oneplanetnetwork.org/one-planet-network-wide-plastics-initiative\"> One Planet Network-Wide Plastics</a> promove ações através de uma narrativa comum que se baseia nas evidências e conhecimentos produzidos pelo PNUMA, ao mesmo tempo em que alavanca os diferentes conhecimentos e parcerias dentro dos programas da rede One Planet. A embalagem plástica na fase de uso da cadeia de valor do plástico é o principal ponto de entrada para estruturar a resposta coletiva da rede."
+    			}
+    		]
+    	}
+    ];
+    var resources = [
+    ];
+    var menu$1 = [
+    	{
+    		item: "Download do relatório",
+    		short: "Download",
+    		link: "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/36963/POLSOL.pdf"
+    	}
+    ];
+    var meta$1 = {
+    	title: "Da Poluição à Solução",
+    	url: "unep.org/interactive/pollution-to-solution",
+    	description: "Uma avaliação rigorosa de várias ameaças à saúde, economia, ecossistema, vida selvagem e clima e soluções associadas ao lixo no mar e poluição plástica.",
+    	keywords: "Plástico nas Praias, Mares Limpos, Poluição Oceânica, Poluição Plástica, Lixo no Oceano, Resíduos Plásticos, Fontes de Poluição da Água"
+    };
+    var storyPT = {
     	article: article,
     	resources: resources,
     	menu: menu$1,
     	meta: meta$1
     };
 
-    // import storyPT from './data/story-pt.json'
-
     const params = new URLSearchParams(window.location.search);
-    const langs = ['EN', 'ES', 'FR', 'ID', 'PT', 'RU', 'ZH', 'AR', 'SW'];
+    const langs = ['EN', 'ES', 'FR', 'ID', 'PT', 'RU', 'ZH', 'AR', 'SW', 'PT'];
     const lang = (params.has('lang') && langs.some(l => params.get('lang') === l))?params.get('lang'):'EN';
 
     const url = {
@@ -14389,7 +14698,7 @@ var app = (function () {
       ES:storyES,
       FR:storyFR,
       ID:storyID,
-    //   PT:storyPT,
+      PT:storyPT,
       RU:storyRU,
       ZH:storyZH,
       AR:storyAR,

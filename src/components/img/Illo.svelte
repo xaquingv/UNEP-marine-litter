@@ -7,8 +7,14 @@
 <style>
     .right-illo {
         height:auto;
-        width:50vw;
+        width:60vw;
         float:right;
         padding-left:5rem;
+    }
+    @media screen and (min-width: 48rem) {
+        .right-illo {
+            width:40vw;
+            padding-left:3rem;
+        }
     }
 </style>

@@ -7,10 +7,10 @@ import storyAR from './data/story-ar.json'
 import storyRU from './data/story-ru.json'
 import storyZH from './data/story-zh.json'
 import storySW from './data/story-sw.json'
-// import storyPT from './data/story-pt.json'
+import storyPT from './data/story-pt.json'
 
 const params = new URLSearchParams(window.location.search);
-const langs = ['EN', 'ES', 'FR', 'ID', 'PT', 'RU', 'ZH', 'AR', 'SW'];
+const langs = ['EN', 'ES', 'FR', 'ID', 'PT', 'RU', 'ZH', 'AR', 'SW', 'PT'];
 const lang = (params.has('lang') && langs.some(l => params.get('lang') === l))?params.get('lang'):'EN';
 
 const url = {
@@ -18,7 +18,7 @@ const url = {
   ES:storyES,
   FR:storyFR,
   ID:storyID,
-//   PT:storyPT,
+  PT:storyPT,
   RU:storyRU,
   ZH:storyZH,
   AR:storyAR,

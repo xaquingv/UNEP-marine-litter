@@ -13,6 +13,7 @@
   const languages = [
     {id: 'EN', name: 'English'},
     {id: 'ES', name: 'Español'},
+    {id: 'PT', name: 'Português'},
     {id: 'FR', name: 'Français'},
     {id: 'ZH', name: '简体中文'},
     {id: 'AR', name: 'العربية'},

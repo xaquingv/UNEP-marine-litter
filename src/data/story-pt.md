@@ -1,0 +1,160 @@
+## Da Poluição<br/> <b>à Solução</b>
+
+
+O que o ponto mais profundo do oceano, <b>as Fossas Marianas</b>, e o pico de montanha mais alto do mundo, <b>Monte Everest, têm em comum</b>?
+
+
+Apesar de estarem entre os ecossistemas mais remotos e inacessíveis do planeta, <b>estes dois possuem pequenos pedaços de plástico provenientes de atividades humanas</b> a quilômetros de distância.
+
+
+<b>Plásticos</b> são a maior, mais prejudicial e mais persistente parcela do lixo no mar, representando pelo menos <b>85 por cento do total de lixo no mar</b>.
+
+
+O lixo no mar é encontrado em <b>volumes crescentes</b> ao longo de nossas costas e estuários, em gigantescas correntes meso-oceânicas, em ilhas remotas, no gelo marinho...
+
+
+... atravessando o fundo do mar, desde as regiões polares até as fossas mais profundas e escuras, <b> prejudicando a vida marinha</b> e danificando habitats pelo caminho.
+
+
+Durante os últimos 70 anos, o plástico - um material extremamente maleável, versátil e durável - infiltrou-se no mercado e alcançou, aparentemente, todos os recantos da Terra. O plástico pode proporcionar benefícios importantes, em aplicações que vão desde equipamentos médicos que salvam vidas até o armazenamento seguro e duradouro de alimentos. Entretanto, produtos plásticos desnecessários e evitáveis, particularmente embalagens de uso único e itens descartáveis, estão poluindo nosso planeta a taxas alarmantes. Décadas de crescimento econômico e uma crescente dependência de produtos plásticos descartáveis têm levado a uma enxurrada de resíduos não gerenciados que se espalham por lagos, rios, áreas costeiras e, até mesmo, pelo mar, provocando uma série de problemas.
+
+
+**<a href="">Da Poluição à Solução: Uma análise global sobre lixo marinho e poluição plástica </a>** mostra que existe uma ameaça crescente em todos os ecossistemas desde a produção até o mar. Mostra também que, embora tenhamos o conhecimento, precisamos da vontade política e da ação urgente dos governos para enfrentar a crise crescente. O relatório informará as ações prioritárias na Assembleia da ONU para o Meio Ambiente (UNEA 5.2) em 2022, onde os países se reunirão para decidir um caminho para a cooperação global. O novo relatório da ONU adverte que, a menos que consigamos lidar com nosso problema de plásticos:
+
+
+Sem uma ação urgente, as 11 milhões de toneladas de plástico que hoje chegam ao oceano anualmente triplicarão nos próximos vinte anos.
+
+
+Isto significaria entre 23 e 37 milhões de toneladas de plástico escoando para o oceano todos os anos até 2040.
+
+
+Isso equivale a 50 quilos de plástico por metro de litoral em todo o mundo ...
+
+
+… ou o peso de 178 Symphony of the Seas, o maior navio de cruzeiro do mundo.
+
+
+O problema surge durante uma crise global que requer atenção e ações imediatas e sustentáveis. Esta avaliação nos dá o alerta definitivo para a onipresença do lixo no mar e os impactos adversos da poluição plástica - da degradação ambiental às perdas econômicas para as comunidades e indústrias, aos riscos à saúde humana - e nos mostra como podemos fazer melhor. É hora de darmos as mãos para reverter a maré no que se refere ao lixo no mar e à poluição plástica, implementando as muitas - grandes e pequenas - soluções disponíveis, com urgência, inovação, compromisso e responsabilidade.
+
+## Prejuízo à Vida Marinha
+
+
+O lixo no mar e a poluição plástica são problemáticos por muitas razões. Os plásticos não se biodegradam (decomposição natural sem gerar resíduos prejudiciais ao meio ambiente). Em vez disso, eles se decompõem com o tempo em pedaços cada vez menores conhecidos como microplásticos e nanoplásticos, que podem ter impactos prejudiciais significativos.
+
+
+Os impactos na vida marinha variam de danos físicos ou químicos a animais específicos, a efeitos mais amplos sobre a biodiversidade e o funcionamento do ecossistema. Pedaços de plástico foram encontrados no sistema digestivo de muitos seres aquáticos, inclusive em todas as espécies de tartarugas marinhas e em quase metade das espécies de aves marinhas e mamíferos marinhos pesquisados.
+
+
+Tartarugas marinhas confundem sacolas plásticas com água-viva, lentamente morrendo de fome enquanto seus estômagos se enchem de lixo indigesto.
+
+
+Aves marinhas bicam plásticos porque eles<a href="https://www.nature.com/articles/376680a0.epdf?sharing_token=XzA3pMyq1-90bp8IHPsDiNRgN0jAjWel9jnR3ZoTv0NjqwHPzT2EZOmoupSkNogAcZGDea6VHenadcy2ZVTQLAQygdRw7H4UC7py46oKWTeTp_jR-LXk4EUiQD6fCfvgRxa9FeT2BsqDP4gNHAHc1UOJNEfRsAF6L4Fzte3kHmnRcOOaeLbB7-DtdeGWOnUkVs0C8l8RNzNyQal8GyWw8jg93siTVTmEMCZPcazH8Z6Ugd6g-RzwR2_TN5PgL8qQP1k1RCdu4pqP8R7_z_ucaoN-S1AoVv52tqlLZZR6c5k%3D&amp;tracking_referrer=www.scientificamerican.com">têm cheiro e aparência de comida</a>.
+
+
+Mamíferos marinhos, tartarugas marinhas e outros animais muitas vezes se afogam após ficarem presos em <a href="https://www.fisheries.noaa.gov/alaska/marine-life-distress/pinniped-entanglement-marine-debris">plásticos perdidos ou descartados</a> incluindo embalagens ou artigos de pesca.
+
+
+Uma das principais causas de morte para a<a href="https://www.fisheries.noaa.gov/species/north-atlantic-right-whale">Baleia-franca-do-atlântico-norte</a>, uma das baleias mais ameaçadas do mundo, é ficar atolada em redes de pesca fantasma.
+
+
+Há impactos menos óbvios também. Não apenas as toxinas já encontradas nos plásticos afetam a teia alimentar oceânica, mas também se sabe que os pedaços de plástico absorvem os poluentes que escoam da terra para o mar, incluindo os resíduos farmacêuticos e industriais. A toxicidade pode se transferir através da cadeia alimentar à medida que as espécies marinhas se alimentam e se tornam alimento. Há também uma preocupação crescente sobre as espécies não nativas que atravessam o oceano em busca de lixo que flutua em mares e solos estrangeiros, tais como algas, moluscos e cracas, que podem invadir e degradar ambientes e espécies aquáticas distantes. O problema é agravado pelo fato de que a maioria do lixo plástico no oceano eventualmente naufraga como uma pilha de lixo submersa, sufocando os recifes de corais e a vida marinha no fundo do mar.
+
+## Prejuízos à humanidade
+
+
+Os seres humanos também estão em risco devido ao lixo no mar e à poluição plástica. A saúde ambiental está intrinsecamente ligada à saúde humana. A onipresença dos microplásticos em todo o nosso planeta suscita sérias preocupações quanto à segurança das pessoas. <a href="https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/august/micro-and-nanoplastics-detectable-in-human-tissues.html">Nova pesquisa</a> mostra que as pessoas estão inalando microplásticos através do ar, consumindo-os através de alimentos e água e até mesmo absorvendo-os através da pele. Microplásticos foram encontrados até mesmo dentro de**nossos pulmões, fígados, baços e rins**e um estudo recente encontrou microplásticos em ** placentas** de recém-nascidos.
+
+
+A extensão total do impacto na saúde humana ainda é desconhecida, uma vez que a pesquisa é incipiente. Há, entretanto, evidências substanciais de que produtos químicos associados aos plásticos, tais como metilmercúrio, plastificantes e retardantes de chama, podem entrar no corpo e estão ligados a problemas de saúde, especialmente nas mulheres. Os cientistas também acreditam que alguns dos produtos químicos comuns encontrados nos plásticos, tais como bisfenol A, ftalatos e bifenilos policlorados (PCBs), são capazes de penetrar no corpo. Estes produtos químicos têm sido ligados à disrupção endócrina, desordens de desenvolvimento, anormalidades reprodutivas e câncer. Isso é razão suficiente para que se adote uma abordagem preventiva.
+
+
+Os impactos da poluição plástica não são sentidos igualmente em todo o mundo. Países mais ricos produzem mais resíduos plásticos, que com grande frequência escoam para países menos desenvolvidos, onde a gestão de resíduos é menos sofisticada. A reciclagem pode ajudar a reduzir a produção de plástico e os resíduos plásticos; no entanto, um grande problema é a baixa taxa de reciclagem de plásticos em todo o mundo, que atualmente é inferior a 10%.
+
+
+As populações dos países em desenvolvimento são as menos capazes de administrar a carga ambiental, sanitária, social e cultural da poluição plástica, devido à falta de apoio ou fundos governamentais. Isso significa que mulheres, crianças, catadores e catadoras de material reciclável, comunidades costeiras, povos indígenas e pessoas que dependem do oceano <a href="https://www.unescap.org/sites/default/files/publications/CS76%20Theme%20Study.pdf">sentem os impactos mais intensamente</a>, particularmente quando transportam ou queimam lixo mal administrado. Isto também significa que estas economias sofrem, pois são sufocadas pelo plástico.
+
+
+Os plásticos marinhos impactam negativamente a capacidade de uma multiplicidade de ecossistemas de proporcionar os benefícios básicos que os seres humanos desfrutam, mas consideram como dados, que vão desde água limpa até aquicultura e pesca produtiva, controle de pragas e doenças, regulação climática, e patrimônio e recreação. De acordo com a avaliação Da Poluição à Solução, a poluição plástica marinha reduz serviços valiosos atrelados ao ecossistema marinho em pelo menos U$500 bilhões a U$2.500 bilhões por ano, e isso não inclui outras perdas sociais e econômicas, como o turismo e a navegação.
+
+
+A avaliação destaca que as perdas econômicas diretas para as indústrias costeira e marítima, tais como a pesca e o transporte marítimo, são significativas. Na região do Mediterrâneo, estas perdas foram estimadas em cerca de US$138 milhões por ano. Na região da Cooperação Econômica Ásia-Pacífico, as perdas totalizam US$10,8 bilhões, um aumento de quase dez vezes em relação a 2009. No entanto, estas perdas não são bem reportadas, e os custos reais do lixo no mar e da poluição plástica na saúde humana, ambiental e social ainda estão sendo descobertos.
+
+## Plásticos e Mudança climática
+
+
+Os plásticos também são um problema climático. Nem todos sabem que o plástico é essencialmente produzido a partir do petróleo, um combustível fóssil. Quanto mais plástico produzimos, mais combustível fóssil é necessário, e mais intensificamos a crise climática em um contínuo ciclo prejudicial. Além disso, a produção de plástico cria emissões de gases de efeito estufa ao longo de todo o seu ciclo de vida. Se nenhuma ação for tomada, as emissões de gases de efeito estufa da produção, reciclagem e incineração de plásticos poderiam ser responsáveis por  <a href="https://www.pewtrusts.org/-/media/assets/2020/07/breakingtheplasticwave_report.pdf">19% do total de emissões definidas pelo Acordo de Paris em 2040</a> para limitar o aquecimento a 1,5 graus Celsius.
+
+
+Nos últimos anos, tem havido uma urgência crescente para proteger o oceano e os mares, a fim de combater a mudança climática. O oceano é o maior reservatório de carbono do planeta, armazenando <a href="https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content"> até 90 por cento do calor adicional que as emissões de carbono têm retido em nossa atmosfera</a> e um terço do dióxido de carbono adicional gerado desde a revolução industrial. A absorção de grandes quantidades de carbono retardou os impactos visíveis de um planeta em aquecimento - mas também acelerou os efeitos catastróficos abaixo da superfície da água - um oceano aquecido, acidificado e quimicamente desequilibrado.
+
+
+O carbono é capturado em todos os elementos do oceano, especialmente manguezais, gramas marinhas, corais e pântanos salgados. Quanto mais danos fazemos às nossas áreas oceânicas e costeiras, mais difícil é para estes ecossistemas tanto compensar como permanecer resistentes às mudanças climáticas.
+
+
+De forma alarmante, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969721002886">um estudo recente</a> sobre a poluição marinha por plástico pela GRID-Arendal, parceira do PNUMA, indica que os quatro ecossistemas costeiros que armazenam mais carbono e servem como barreiras naturais contra a subida dos mares e tempestades - manguezais, gramas marinhas, pântanos salgados e recifes de corais - estão sendo colocados sob pressão da poluição plástica terrestre como consequência de sua proximidade com os rios. Mais do que nunca, o levantamento e a pesquisa de lixo no mar são essenciais para prever as consequências das pressões, projetar abordagens de mitigação e orientar a adaptação.
+
+## Da poluição plástica à solução
+
+
+A poluição desenfreada, o colapso da biodiversidade e a mudança climática são as crises planetárias mais urgentes de nosso tempo. O rápido crescimento da produção de plástico já representa ameaças aos sistemas naturais da Terra, dos quais a vida depende, e a projeção é de piora. Até 2040, espera-se que os resíduos plásticos apresentem um risco financeiro anual de 100 bilhões de dólares para as empresas que precisariam arcar com os custos da gestão de resíduos. Estima-se que <a href="https://www.eionet.europa.eu/etcs/etc-wmge/products/impact-of-covid-19-on-single-use-plastics-and-the-environment-in-europe" target="_blank"> só na Itália, entre 160.000 e 440.000 toneladas de resíduos adicionais</a> foram produzidas em 2020 devido à intensificação da dependência de equipamentos médicos **protetivos durante a pandemia de Covid-19**. Se apenas 1% das máscaras de uso único que contribuem para este número fossem descartadas indevidamente, até 10 milhões de máscaras poderiam penetrar e poluir o oceano por mês.
+
+
+Embora a quantidade de plásticos no mar que precisamos enfrentar seja tão grande a ponto de ser difícil de acompanhar, a ciência nos diz que a maioria das soluções de que precisamos já existem. Inúmeras atividades regionais, nacionais e locais estão ajudando a reduzir o fluxo de plásticos para o oceano, tais como as Convenções Marinhas Regionais, proibições nacionais de produtos plásticos de uso único, compromisso de<a href="https://ellenmacarthurfoundation.org/topics/the-global-commitment/overview">empresas e governos</a> para reduzir, redesenhar e reutilizar os produtos plásticos, aumentar o conteúdo de plástico reciclado em novos produtos, iniciativas municipais de contenção e proibições de sacolas.
+
+
+"<a href="https://www.pewtrusts.org/en/research-and-analysis/articles/2020/07/23/breaking-the-plastic-wave-top-findings" target="_blank">Quebrando a Onda de Plástico</a>", uma análise global de como mudar a trajetória dos resíduos plásticos, revela que podemos reduzir a quantidade de plástico que entra no oceano em cerca de 80% nas próximas duas décadas, se utilizarmos as tecnologias e soluções existentes.
+
+
+Continuar com as mesmas atitudes de sempre (business-as-usual) simplesmente não é uma opção. A avaliação Da Poluição à Solução explica que a escala do problema exige compromissos e ações urgentes a nível global, em todo o ciclo de vida do plástico, e da produção até o mar para alcançar a redução necessária de resíduos a longo prazo.
+
+
+Melhorar os sistemas de gestão de resíduos para que a infraestrutura correta esteja disponível para receber os resíduos plásticos e garantir que uma alta proporção possa ser reutilizada ou reciclada.
+
+
+Melhorar a circularidade promovendo práticas de consumo e produção mais sustentáveis em toda a cadeia de valor do plástico.
+
+
+Envolver os consumidores no combate à poluição plástica para influenciar o mercado e inspirar mudanças comportamentais.
+
+
+Fechar a torneira eliminando itens de plástico desnecessários, evitáveis e problemáticos, substituindo-os por materiais, produtos e serviços alternativos.
+
+
+Lidar com o legado através de um monitoramento eficaz para identificar fontes, quantidades e o destino dos plásticos.
+
+
+Melhorar e fortalecer a governança em todos os níveis.
+
+
+Aumentar o conhecimento e monitorar a eficácia usando ciência rigorosa.
+
+
+Melhorar o financiamento com assistência técnica e desenvolvimento de capacidades.
+
+
+Vários acordos e convenções internacionais existentes já fornecem apoio para reduzir a poluição marinha, combater a mudança climática (ODS 13) e utilizar os oceanos de forma sustentável (ODS 14). A Parceria Global sobre Lixo no mar, a Convenção das Nações Unidas sobre o Direito do Mar e a Convenção sobre Diversidade Biológica estão diretamente relacionadas com a saúde do oceano, seus ecossistemas e a vida marinha. As convenções da Basiléia, Estocolmo e Roterdão estão relacionadas ao transporte e ao descarte de resíduos perigosos e produtos químicos. Há também uma forte tendência para um acordo global sobre lixo no mar e poluição plástica para combater este problema.
+
+
+Não há uma solução única. Como em muitas violações ambientais intergeracionais, isto requer pensamento, inovação e transformação dos sistemas. Entretanto, o objetivo é único: reduzir o uso de plásticos desnecessários, evitáveis e problemáticos, e interromper seu escoamento para nossos lagos, rios, pântanos, costas e mares. Estamos no mesmo barco, e não só podemos, mas devemos resolver o lixo no mar e o problema da poluição plástica.
+
+## Faça o download do relatório do PNUMA: Da Poluição à Solução: uma análise global sobre lixo marinho e poluição plástica
+
+## Junte-se ao PNUMA para agir agora!
+
+
+A <a href="https://www.unep.org/environmentassembly/about-united-nations-environment-assembly">Assembleia da ONU para o Meio Ambiente </a> (UNEA) é o órgão decisório de mais alto nível do mundo sobre o meio ambiente, com uma filiação universal de todos os 193 Estados Membros. A Assembleia estabelece prioridades para políticas ambientais globais, desenvolve o direito ambiental internacional, proporciona liderança, catalisa a ação intergovernamental sobre o meio ambiente e contribui para a implementação da <a href="https://sustainabledevelopment.un.org/">Agenda 2030 das Nações Unidas para o Desenvolvimento Sustentável</a>. Esta avaliação histórica incitará os governos na próxima UNEA-5.2, em fevereiro de 2022, a tomar medidas decisivas e globais para enfrentar a crise do plástico. O credenciamento junto ao Programa das Nações Unidas para o Meio Ambiente permitirá a sua participação. As organizações são encorajadas a enviar pedidos de credenciamento em breve para que possam ser processados a tempo. Saiba mais <a href="https://www.unep.org/civil-society-engagement/accreditation">aqui</a>.
+
+
+Enraizada no trabalho de longa data do PNUMA e da <a href="https://unep-marine-litter.vercel.app/">Parceria Global sobre Lixo no Mar (GPML)</a>, a <a href="https://www.cleanseas.org/">Campanha Mares Limpos</a> está conectando e mobilizando indivíduos, grupos da sociedade civil, indústria e governos para catalisar mudanças e transformar hábitos, práticas, padrões e políticas em todo o mundo para reduzir drasticamente o lixo no mar e seus impactos negativos. Até hoje, 63 países aderiram, e mais de cem mil indivíduos se comprometeram com a campanha através de promessas de ação, compromissos e interações nas mídias sociais. Descubra como aderir e assumir o compromisso #MaresLimpos <a href="https://www.cleanseas.org/make-pledge">aqui</a>.
+
+
+A <a href="https://www.gpmarinelitter.org/">Parceria Global sobre Lixo no mar</a> (GPML) reúne todos os atores que trabalham com lixo no mar e prevenção e redução da poluição plástica. Todas as entidades que trabalham para tratar desta questão global urgente estão convidadas a se juntar ao GPML <a href="https://www.gpmarinelitter.org/who-we-are/members/sign-up">aqui</a>. A Plataforma Digital GPML é uma plataforma de código aberto multistakeholder que compila diferentes recursos, conecta as partes interessadas e integra dados para orientar a ação, com o objetivo de promover o acesso equitativo aos dados, informações, tecnologia e inovação. Descubra mais e junte-se a <a href="https://digital.gpmarinelitter.org/">aqui</a>!
+
+
+O <a href="https://www.oneplanetnetwork.org/sustainable-tourism/global-tourism-plastics-initiative”>Compromisso Global pela Nova Economia do Plástico</a> une empresas, governos e outras organizações ao longo da cadeia de valor do plástico em torno <a href="https://emf.thirdlight.com/link/86tanzqdbppx-8rdpns/@/preview/1?o">de uma visão comum</a> e visa a abordar o resíduo plástico e a poluição em sua fonte. Ela é liderada pela Fundação <a href="https://ellenmacarthurfoundation.org/">Ellen MacArthur</a> em colaboração com <a href="https://www.unep.org/">PNUMA</a>. Os signatários se comprometem a tomar ações específicas para ELIMINAR o plástico que não precisamos; INOVAR para garantir que os produtos plásticos de que precisamos sejam reutilizáveis, recicláveis ou compostáveis; e CIRCULAR todos os itens plásticos que usamos para mantê-los na economia e fora do meio ambiente.
+
+
+A <a href="https://www.oneplanetnetwork.org/sustainable-tourism/global-tourism-plastics-initiative">Iniciativa Global para a Circularidade do Plásticos no Turismo</a> (GTPI) é a interface do Compromisso Global com o setor de Turismo. Mais de 600 organizações, incluindo 20 governos de todo o mundo, e mais de 350 empresas representando mais de 20% das embalagens plásticas utilizadas globalmente são signatárias do Compromisso Global e do GTPI.
+
+
+A iniciativa<a href="https://www.oneplanetnetwork.org/one-planet-network-wide-plastics-initiative"> One Planet Network-Wide Plastics</a> promove ações através de uma narrativa comum que se baseia nas evidências e conhecimentos produzidos pelo PNUMA, ao mesmo tempo em que alavanca os diferentes conhecimentos e parcerias dentro dos programas da rede One Planet. A embalagem plástica na fase de uso da cadeia de valor do plástico é o principal ponto de entrada para estruturar a resposta coletiva da rede.
